@@ -1,0 +1,3 @@
+This bug occurs when using the Expo Go app to test an app that uses a custom native module. The Expo Go app fails to load the app, and it will throw an error in the console saying that the native module cannot be found. This is because the Expo Go app does not include the native modules from your project. 
+
+To reproduce this bug, create a new Expo project and install a custom native module. Then run the app in Expo Go. The app will fail to load, and an error will be logged to the console.
